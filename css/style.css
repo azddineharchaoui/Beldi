@@ -245,7 +245,7 @@ header.sticky{
 	font-size: 14px;
 	letter-spacing: 2px;
 }
-
+/*
 @media (max-width: 1400px){
 	header{
 		padding: 17px 3%;
@@ -313,9 +313,6 @@ header.sticky{
 	.list{
 		width: 100%;
 	}
-	.newsletter form{
-		width: 350px;
-	}
 	:root{
 		--big-font: 3.8rem;
 	  --h2-font: 1.8rem;
@@ -329,7 +326,7 @@ header.sticky{
 		transition: .2s;
 	}
 }
-
+*/
 .contact form, .contact1 form{
     max-width: 100%;
     width: 450px;
@@ -466,6 +463,7 @@ input[type=text], select, textarea {
     flex-direction: column;
     align-content: center;
     align-items: center;
+	text-align: center;
 }
 .explore h1{
 	font-size: 60px;
@@ -506,8 +504,11 @@ input[type=text], select, textarea {
 	align-items: center;
 }
 .exitem{
-	width: 100%;
-	height: 100%;
+	width: calc(95/3);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius:10px;
 }
 .explore ul{
 	text-align:center;
