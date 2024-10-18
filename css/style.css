@@ -460,10 +460,36 @@ input[type=text], select, textarea {
 }
 .explore{
 	display: flex;
-    flex-direction: column;
+	flex-wrap: wrap; 
     align-content: center;
     align-items: center;
+	justify-content: center;
 	text-align: center;
+	margin-top: 50px;
+	
+}
+.explore label{
+	font-family: 'Poppins', sans-serif;
+}
+.exploresection{
+	margin: 0 auto; 
+}
+.tab_label{
+	padding: 10px 15px; 
+	cursor : pointer; 
+}
+.tab_radio{
+	display: none; 
+}
+.tab_radio:checked+.tab_label{
+	font-weight:bold;
+	border-bottom: 4px solid #933C24;  
+}
+.tab_radio:checked+.tab_label+.exploregrid{
+	margin-top: 70px;
+	display: grid;
+	grid-template-columns: repeat(3,1fr); 
+	gap: 10px;
 }
 .explore h1{
 	font-size: 60px;
@@ -486,6 +512,10 @@ input[type=text], select, textarea {
 	display: grid;
 	grid-template-columns: repeat(3,1fr); 
 	gap: 10px;
+	justify-content: center;
+	order: 1; 
+	width : 100%;
+	display: none ; 
 }
 .treatsgrid{
 	display: grid;
@@ -509,6 +539,17 @@ input[type=text], select, textarea {
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius:10px;
+}
+.exitem img{
+	width:360px;
+	height: 350px; 
+	border-radius: 10px; 
+}
+.exploresection{
+	text-align:center;
+}
+.exploresection h1{
+	font-size: 60px;
 }
 .explore ul{
 	text-align:center;
