@@ -20,7 +20,6 @@ body{
 	background: var(--bg-color);
 	color: var(--text-color);
 }
-
 header{
 	position: fixed;
 	top: 0;
@@ -51,7 +50,6 @@ header{
 }
 .navbar li a{
 	font-family: 'Poppins', sans-serif;
-
 }
 .navbar a:hover{
 	color: var(--main-color);
@@ -64,7 +62,6 @@ header{
 	cursor: pointer;
 	display: none;
 }
-
 section{
 	padding: 80px 18%;
 }
@@ -99,7 +96,6 @@ section{
 	letter-spacing: 4px;
 	margin-bottom: 20px;
 }
-
 .about-text h1{
 	font-size: var(--big-font);
 	line-height: 1.2;
@@ -118,14 +114,12 @@ section{
 	line-height: 38px;
 	margin-bottom: 50px;
 }
-
 .about-text p{
 	color: #fff;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 38px;
 	margin-bottom: 50px;
-
 }
 .home-btn, .add-btn{
 	display: inline-block;
@@ -152,8 +146,6 @@ header.sticky{
 .sticky .navbar a{
 	color: var(--text-color);
 } 
-
-
 #contact{
 	background-image: url(../img/footer.png);
 	background-size: cover;
@@ -176,7 +168,6 @@ header.sticky{
 	font-family: 'Poppins', sans-serif; 
 	width: 30%;
 }
-
 .list h4, .list-news h4{
 	font-family: 'Poppins', sans-serif; 
 	font-size: 21px;
@@ -190,7 +181,6 @@ header.sticky{
 	color: #E9BD8D;
 	position: relative;
 }
-
 .list ul li:not(last-child) {
 	margin-bottom: 16px;
 }
@@ -218,7 +208,6 @@ header.sticky{
 	color: var(--bg-color);
 	transform: translateX(14px);
 }
-
 .list-social a{
 	height: 40px;
 	width: 40px;
@@ -245,88 +234,6 @@ header.sticky{
 	font-size: 14px;
 	letter-spacing: 2px;
 }
-/*
-@media (max-width: 1400px){
-	header{
-		padding: 17px 3%;
-		transition: .2s;
-	}
-	header.sticky{
-		padding: 10px 3%;
-		transition: .2s;
-	}
-	section{
-		padding: 80px 3%;
-		transition: .2s;
-	}
-	:root{
-		--big-font: 4.5rem;
-	  --h2-font: 2.3rem;
-	  --p-font: 1rem;
-	  transition: .2s;
-	}
-}
-
-@media (max-width: 1040px){
-	#menu-icon{
-		display: block;
-	}
-	.stick #menu-icon{
-		color: var(--text-color);
-	}
-	.home{
-		height: 88vh;
-	}
-	.navbar{
-		position: absolute;
-		top: 0;
-		right: -100%;
-		width: 270px;
-		height: 120vh;
-		background: #1067cc;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 150px 30px;
-		transition: 0.5s all;
-	}
-	.navbar a{
-		display: block;
-		margin: 1.2rem 0;
-	}
-	.sticky .navbar a{
-		color: var(--bg-color);
-	}
-	.navbar a:hover{
-		color: var(--text-color);
-	}
-	.open{
-		right: 0;
-	}
-	.list{
-		width: 50%;
-		margin-bottom: 12px;
-	}
-}
-
-@media (max-width: 575px){
-	.list{
-		width: 100%;
-	}
-	:root{
-		--big-font: 3.8rem;
-	  --h2-font: 1.8rem;
-	  transition: .2s;
-	}
-	.text{
-		text-align: center;
-	}
-	.home{
-		height: 85vh;
-		transition: .2s;
-	}
-}
-*/
 .contact form, .contact1 form{
     max-width: 100%;
     width: 450px;
@@ -354,7 +261,6 @@ header.sticky{
     border-radius: 15px;
 }
 .contact form input:last-child, .contact1 form input:last-child{
-
     outline: none;
     border: none;
     padding: 14px 30px;
@@ -365,9 +271,6 @@ header.sticky{
     right: 6px;
     cursor: pointer;
 }
-
-
-
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -389,26 +292,17 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
   }
-
-
- 
- 
-
   .contact div{
-
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
 	flex-direction: column;
   }
-
   .contact h1{
 	justify-content: center;
 	margin : 20px;
   }
-
   .contact1 .div{
-
 	display: flex; 
 	justify-content: center; 
 	align-items: center;
@@ -417,8 +311,6 @@ input[type=text], select, textarea {
 .contact1 form input.radio1{
 	width:auto;
 }
-
-
 .div2{
 	display: flex; justify-content: center;width: 100%;
 }
@@ -500,13 +392,10 @@ input[type=text], select, textarea {
 	display: inline ; 
 	margin : 10px; 
 	font-family: 'Poppins', sans-serif;
-
 }
 .explore ul li a{
 	font-family: 'Poppins', sans-serif;
-
 }
-
 .exploregrid{
 	margin-top: 70px;
 	display: grid;
@@ -645,6 +534,7 @@ input[type=text], select, textarea {
 
 .about-details{
 	font-size: 30px;
+	margin: 50px 200px; 
 }
 .contactform input {
 	font-size:20px;
