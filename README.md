@@ -22,6 +22,6 @@ Pour visualiser ce projet sur votre machine locale :
 
 1- Clonez ce dépôt :
    ```bash
-   git clone https://github.com/azddineharchaoui/Beldi
+   git clone [https://github.com/azddineharchaoui/Beldi](https://github.com/azddineharchaoui/Beldi)
 
 2- ouvrez la page d'accueil index.html avec un navigateur. 
